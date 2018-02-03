@@ -1,0 +1,24 @@
+
+/* 
+    Created on : 26/01/2018, 22:17:19
+    Author     : cristiianefaria
+*/
+
+.container{
+    width: 100%;
+    
+}
+form{
+    max-width: 800px;
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+h1,
+.copyright{
+    text-align: center;
+}
+.mensagem-alerta{
+    margin: 20px 0;
+    text-align: center;
+}
