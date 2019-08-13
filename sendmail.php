@@ -15,9 +15,9 @@ if (isset($_POST['btnSend'])) {
     if ((!empty($nome)) && (!empty($email)) && (!empty($telefone)) && (!empty($assunto)) && (!empty($mensagem))) {
         
         $email_remetente = "contato@cristianefaria.com"; // deve ser uma conta de email do seu dominio 
-        $email_destinatario = "contato@cristianefaria.com"; // email que receberá as mensagens
+        $email_destinatario = $email; // email que receberá as mensagens
         $email_recebidoDe = "$email";
-        $email_assunto = "Formulário de Contato"; // Este será o assunto da mensagem
+        $email_assunto = "Envio Teste do Formulário de Contato | Cristiane Faria"; // Este será o assunto da mensagem
         $email_conteudo = "FORMULÁRIO DE CONTATO\n"
             . "<br><b>De:</b> " . $nome
             . "<br><b>Email:</b> " . $email

@@ -4,18 +4,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Código fonte formulario php"/>
-        <meta name="keywords" content="demo, código fonte, formulario php, bootstrap, bootstrap validator, validação"/>
+        <meta name="keywords" content="formulario php, bootstrap, bootstrap validator"/>
         <meta name="author" content="Cristiane Faria"/>
 
         <title>Cristiane Faria | Formulário PHP</title>
 
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <style>
+            main, footer, .mensagem-alerta{
+                text-align: center; 
+            }
+            form{
+                max-width: 800px;
+                padding-top: 30px;
+                display: block;
+                margin: 0 auto;
+            }
+            .mensagem-alerta{
+                max-width: 500px;
+                margin: 20px auto;
+            }
+        </style>
 
     </head>
     <body>
-        <div class="container">
+        <main class="container">
             <h1>Formulário de Contato</h1>
+            <p>Acrescente um email válido para receber o email teste!</p>
             <br>
             <form class="form-horizontal" action="index.php#formulario" method="post" role="form" data-toggle="validator">
                 <div class="form-group">
@@ -68,11 +83,11 @@
                     </div>
                 </div>
             </form>
-        </div>
+        </main>
         <footer>
             <hr>
-            <div class="copyright">Desenvolvido por
-                <a href="http://cristianefaria.com" target="_blank">CRISTIANE FARIA</a>
+            <div class="copyright">Desenvolvido com ❤ por
+                <a href="https://cristianefaria.com" target="_blank">CRISTIANE FARIA</a>
             </div>  
         </footer>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
